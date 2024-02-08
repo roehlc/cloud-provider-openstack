@@ -43,6 +43,9 @@ component: controllermanager
 {{- define "occm.controllermanager.labels" -}}
 {{ include "occm.controllermanager.matchLabels" . }}
 {{ include "occm.common.metaLabels" . }}
+{{- range $key, $val := .Values.podLabels }}
+{{ $key }}: {{ $val }}
+{{- end }}
 {{- end -}}
 
 {{/*
