@@ -70,10 +70,6 @@ csi:
         readOnly: true
     nodePlugin:
       dnsPolicy: ClusterFirstWithHostNet
-      # Optional additional annotations to add to the nodePlugin Pods.
-      podAnnotations: {}
-      # Optional additional labels to add to the nodePlugin Pods.
-      podLabels: {}
       podSecurityContext: {}
       securityContext: {}
         # capabilities:
@@ -104,10 +100,6 @@ csi:
           # maxSurge is the maximum number of pods that can be
           # created over the desired number of pods.
           maxSurge: 1
-      # Optional additional annotations to add to the controllerPlugin Pods.
-      podAnnotations: {}
-      # Optional additional labels to add to the controllerPlugin Pods.
-      podLabels: {}
       podSecurityContext: {}
         # runAsNonRoot: true
         # runAsUser: 65532
@@ -204,5 +196,5 @@ priorityClassName: ""
 imagePullSecrets: []
 # - name: my-imagepull-secret
 
-## Annotations to apply to all resources
+# add annotations to all pods
 commonAnnotations: {}
