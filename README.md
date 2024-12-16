@@ -2,7 +2,7 @@
 
 ## Add repo
 
-    helm repo add cpo https://kubernetes.github.io/cloud-provider-openstack
+    helm repo add cpo https://roehlc.github.io/cloud-provider-openstack/
     helm repo update
 
 ## Install Cinder CSI chart
