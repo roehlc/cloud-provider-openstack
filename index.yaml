@@ -1,0 +1,57 @@
+apiVersion: v1
+entries:
+  openstack-cinder-csi:
+  - apiVersion: v1
+    appVersion: v1.31.2
+    created: "2024-12-16T14:47:03.695466216Z"
+    description: Cinder CSI Chart for OpenStack
+    digest: 93a4d0bab3f8fc767f9c9df0736545e8cec76c55ceb5cbf5353e01390ac3acac
+    home: https://github.com/kubernetes/cloud-provider-openstack
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    maintainers:
+    - email: mnasiadka@gmail.com
+      name: mnasiadka
+    - email: matt@stackhpc.com
+      name: mkjpryor
+    name: openstack-cinder-csi
+    urls:
+    - https://github.com/roehlc/cloud-provider-openstack/releases/download/openstack-cinder-csi-2.31.6/openstack-cinder-csi-2.31.6.tgz
+    version: 2.31.6
+  openstack-cloud-controller-manager:
+  - apiVersion: v2
+    appVersion: v1.31.2
+    created: "2024-12-16T14:47:03.80469683Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.14.1
+    description: Openstack Cloud Controller Manager Helm Chart
+    digest: 2ef95b37303d6b82014fe717adb40f4e67e6aba295e7d2e36b562896ab9783fc
+    home: https://github.com/kubernetes/cloud-provider-openstack
+    icon: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+    maintainers:
+    - email: f.kloeker@telekom.de
+      name: eumel8
+      url: https://www.telekom.com
+    name: openstack-cloud-controller-manager
+    urls:
+    - https://github.com/roehlc/cloud-provider-openstack/releases/download/openstack-cloud-controller-manager-2.31.2/openstack-cloud-controller-manager-2.31.2.tgz
+    version: 2.31.2
+  openstack-manila-csi:
+  - apiVersion: v1
+    appVersion: v1.31.2
+    created: "2024-12-16T14:47:03.947399404Z"
+    description: Manila CSI Chart for OpenStack
+    digest: 8247435d74e83e710d4993769cb4f590d1a0be259ee8ea77ebc9b25eb42a0c9e
+    home: http://github.com/kubernetes/cloud-provider-openstack
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    maintainers:
+    - email: mnasiadka@gmail.com
+      name: mnasiadka
+    - email: matt@stackhpc.com
+      name: mkjpryor
+    name: openstack-manila-csi
+    urls:
+    - https://github.com/roehlc/cloud-provider-openstack/releases/download/openstack-manila-csi-2.31.3/openstack-manila-csi-2.31.3.tgz
+    version: 2.31.3
+generated: "2024-12-16T14:47:03.947409883Z"
